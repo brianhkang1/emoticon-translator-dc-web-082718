@@ -11,6 +11,7 @@ def load_library(file_path)
     if !new_hash["get_meaning"].has_key?(v[1])
       new_hash["get_meaning"] = v[1]
     end 
+  end 
 end
 
 def get_japanese_emoticon
