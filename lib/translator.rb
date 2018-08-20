@@ -8,8 +8,9 @@ def load_library(file_path)
   new_hash["get_emoticon"] = {}
   
   yaml_hash.each do |k,v|
-    if new_hash["get_meaning"].has_key?()
-    new_hash["get_meaning"] = 
+    if !new_hash["get_meaning"].has_key?(v[1])
+      new_hash["get_meaning"] = v[1]
+    end 
 end
 
 def get_japanese_emoticon
