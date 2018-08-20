@@ -10,7 +10,10 @@ def load_library(file_path)
   yaml_hash.each do |k,v|
     if !new_hash.has_value?(v[1])
       new_hash["get_meaning"] = v[1]
-    end 
+    end
+    
+    if !new_hash.has_value?(v[0])
+      new_hash["get_emoticon"] = v[0]
   end 
   new_hash
 end
