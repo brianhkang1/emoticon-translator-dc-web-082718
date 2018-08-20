@@ -14,6 +14,7 @@ def load_library(file_path)
     
     if !new_hash.has_value?(v[0])
       new_hash["get_emoticon"] = v[0]
+    end 
   end 
   new_hash
 end
