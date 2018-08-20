@@ -26,7 +26,7 @@ def get_japanese_emoticon(western_emoticon, file_path)
   
   hash.each do |gett, value|
     if hash[gett].key = western_emoticon
-      return 
+      return hash[gett].value
     
   
 end
