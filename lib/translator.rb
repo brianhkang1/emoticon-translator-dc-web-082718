@@ -13,7 +13,7 @@ def load_library(file_path)
     end
     
     if !new_hash["get_emoticon"].has_key?(value[0])
-      new_hash["get_emoticon"][value[0]] = key
+      new_hash["get_emoticon"][value[0]] = yaml_hash
     end 
   end 
   
