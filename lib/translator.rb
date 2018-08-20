@@ -12,6 +12,7 @@ def load_library(file_path)
       new_hash["get_meaning"] = v[1]
     end 
   end 
+  new_hash
 end
 
 def get_japanese_emoticon
