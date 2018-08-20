@@ -24,7 +24,8 @@ end
 def get_japanese_emoticon(western_emoticon, file_path)
   hash = load_library(file_path)
   
-  if hash["get_emoticon"]
+  if hash["get_emoticon"].has_key?(western_emoticon)
+    
   
 end
 
