@@ -9,7 +9,7 @@ def load_library(file_path)
   
   yaml_hash.each do |key,value|
     if !new_hash["get_meaning"].has_key?(value[1])
-      new_hash["get_meaning"] = value[1]
+      new_hash["get_meaning"][value[1]] = 
     end
     
     if !new_hash.has_value?(value[0])
