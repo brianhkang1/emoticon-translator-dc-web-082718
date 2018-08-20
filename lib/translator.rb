@@ -20,6 +20,8 @@ def load_library(file_path)
   new_hash
 end
 
+load_library(./lib/emoticions.yml)
+
 def get_japanese_emoticon
   # code goes here
 end
