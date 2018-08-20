@@ -25,7 +25,7 @@ def get_japanese_emoticon(file_path, emoticon)
   hash = load_library(file_path)
   
   if hash["get_emoticon"].key == emoticon
-      return hash[gett].value
+      hash["get_emoticon"].value
     end
   end 
 end
