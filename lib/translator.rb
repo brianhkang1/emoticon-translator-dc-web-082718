@@ -24,7 +24,7 @@ end
 def get_japanese_emoticon(western_emoticon, file_path)
   hash = load_library(file_path)
   
-  hash.each do ||
+  if hash["get_meaning"]
   
 end
 
