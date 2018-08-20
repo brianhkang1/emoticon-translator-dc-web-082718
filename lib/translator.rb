@@ -24,8 +24,8 @@ end
 def get_japanese_emoticon(western_emoticon, file_path)
   hash = load_library(file_path)
   
-  hash.each do |gett, |
-  if hash["get_emoticon"].has_key?(western_emoticon)
+  hash.each do |gett, value|
+    if hash["get_emoticon"].has_key?(western_emoticon)
     
   
 end
